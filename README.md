@@ -28,3 +28,7 @@ For those interested, the mathematics behind the algorithm look like this:
 * Zoom: - and =
 
 ## Examples
+
+Sadly I can't acctually show the algorithm at work as that would require a video but here are some still captures
+
+![Image](https://github.com/HamishHamiltonSmith/SGD-Gradient-descent-Visualiser/blob/main/examples/Screenshot%202022-06-29%208.39.26%20PM.png)
