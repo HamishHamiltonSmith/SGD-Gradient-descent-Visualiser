@@ -1,4 +1,4 @@
-const center = (0,0,0)
+const center = (0,0,0);
 var z_pos = 0;
 var x_pos = 0;
 var rad = 10;
@@ -24,7 +24,7 @@ const material = new THREE.MeshBasicMaterial({color: 0x0000ff} );
 
 camera.position.set(0, 10, 20);
 
-var eq = "Math.pow((x*x+y*y),0.5)"
+var eq="Math.pow((Math.pow(x,2)+Math.pow(y,2)),0.5)";
 
 function displayGraph(eq){
   for (var x=-15; x<15;x++){
@@ -43,7 +43,7 @@ function displayGraph(eq){
 
 class Ball {
   constructor(eq){
-    this.eq = eq
+    this.eq = eq;
 
     this.posx = Math.floor(Math.random()*20)-10;
     this.posy = Math.floor(Math.random()*20)-10;
@@ -70,9 +70,9 @@ class Ball {
       
     } else {
       if (this.parX>0){
-        this.posx -= this.rate
+        this.posx -= this.rate;
       } else {
-        this.posx += this.rate
+        this.posx += this.rate;
       }
     }
 
@@ -82,9 +82,9 @@ class Ball {
       
     } else {
       if (this.parY>0){
-        this.posy -= this.rate
+        this.posy -= this.rate;
       } else {
-        this.posy += this.rate
+        this.posy += this.rate;
       }
     }
 
@@ -100,41 +100,41 @@ class Ball {
 var balls = [];
 balls.push(new Ball(eq));
 
-displayGraph(eq)
+displayGraph(eq);
 
-document.addEventListener("keydown",onPress,false)
+document.addEventListener("keydown",onPress,false);
 
 function onPress(event){
   var code = event.which;
   //Orbiting
   if (code == 38){
     cam_rot_y -= 0.02;
-    mode="vertical"
+    mode="vertical";
   } else if (code == 40){
-    cam_rot_y += 0.02
-    mode="vertical"
+    cam_rot_y += 0.02;
+    mode="vertical";
   } else if (code == 37){
     cam_rot_x -= 0.02;
-    mode = "horizontal"
+    mode = "horizontal";
   } else if (code == 39){
     cam_rot_x += 0.02;
-    mode = "horizontal"
+    mode = "horizontal";
   //Zoom
   } else if (code == 187){
-    mode = "horizontal"
+    mode = "horizontal";
     if (cam_zoom > 0){
       cam_zoom -= 3;
     }
   } else if (code == 189){
-    mode = "horizontal"
+    mode = "horizontal";
     cam_zoom += 3;
   } else if (code == 78){
     balls.push(new Ball(eq));
   } else if (code == 67){
     for (var x = 0; x<balls.length; x++){
-      scene.remove(balls[x].mesh)
+      scene.remove(balls[x].mesh);
     }
-    balls = []
+    balls = [];
   }
 }
 
@@ -164,7 +164,7 @@ function animate() {
     camera.position.x = posx;
   }
 
-  camera.lookAt(0,0,0)
+  camera.lookAt(0,0,0);
 
   for (var x = 0; x<balls.length; x++){   
     balls[x].update();
