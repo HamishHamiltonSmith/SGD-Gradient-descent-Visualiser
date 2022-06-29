@@ -30,7 +30,7 @@ For those interested, the mathematics behind the algorithm look like this:
 ## Examples
 
 
-Sadly I can't actually show the algorithm at work as that would require a video but here are some still captures. The eqautions of these graphs are respectively var eq="Math.pow((x*x+y*y),0.5)"; and var eq="Math.sin(x+y)";
+Sadly I can't actually show the algorithm at work as that would require a video but here are some still captures. The eqautions of these graphs are respectively var eq="Math.pow((x"*"x+y"*"y),0.5)"; and var eq="Math.sin(x+y)";
 
 
 ![Image](https://github.com/HamishHamiltonSmith/SGD-Gradient-descent-Visualiser/blob/main/examples/Screenshot%202022-06-29%208.39.26%20PM.png)
