@@ -6,7 +6,7 @@ I'm working towards making a c++ neural networks capable of image recognition ri
 
 The program is web based, it uses three.js for the rendering because I am lazy. If you want to play around with it yourself go ahead and clone this repository and run via a web browser or other interpreter (the controls are below). If not you can check out some example images. I will also include a paragraph on how this works.
 
-I acctually initialy made a 2d version of this and implemented it into visgraph (my 2d graphing calculator) however it may be a while before I release that.
+I actually initially made a 2d version of this and implemented it into visgraph (my 2d graphing calculator) however it may be a while before I release that.
 
 
 ## How it works
@@ -22,7 +22,7 @@ For those interested, the mathematics behind the algorithm look like this:
 
 ## Controls
 
-* Orbit movement: arrow keys
+* Orbital movement: arrow keys
 * Spawn new ball: n
 * Clear balls: c
 * Zoom: - and =
@@ -30,7 +30,7 @@ For those interested, the mathematics behind the algorithm look like this:
 ## Examples
 
 
-Sadly I can't acctually show the algorithm at work as that would require a video but here are some still captures. The eqautions of these graphs are respectively var eq="Math.pow((x*x+y*y),0.5)"; and var eq="Math.sin(x+y)";
+Sadly I can't actually show the algorithm at work as that would require a video but here are some still captures. The eqautions of these graphs are respectively var eq="Math.pow((x*x+y*y),0.5)"; and var eq="Math.sin(x+y)";
 
 
 ![Image](https://github.com/HamishHamiltonSmith/SGD-Gradient-descent-Visualiser/blob/main/examples/Screenshot%202022-06-29%208.39.26%20PM.png)
