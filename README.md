@@ -2,7 +2,7 @@
 
 ## Intro
 
-I'm working towards making a c++ neural networks capable of image recognition right now, and a key component to these of course are optimizers. I decided to go with stochastic gradient descent. It is remarkably simple and praised still as being one of the best minimization techniques. I ended up learning calculus for this so I hope it is worth it!
+I'm working towards making a c++ neural network capable of image recognition right now, and a key component to these of course are optimizers. I decided to go with stochastic gradient descent. It is remarkably simple and praised still as being one of the best minimization techniques. I ended up learning calculus for this so I hope it is worth it!
 
 This project is web based, it uses three.js (webgl). If you want to play around with it yourself go ahead and clone this repository and run via a web browser or other interpreter (repl.it is a good one). The controls are below. You can also check out some example images below.
 
