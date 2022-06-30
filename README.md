@@ -13,7 +13,7 @@ Thanks!
 ## How it works
 
 For those interested, the mathematics behind the algorithm look like this:
-* 'Balls' are spawned and randomized 
+* 'Balls' are spawned at randomized locations
 * Partial derivatives are calculated, evaluated for both x and y (since it is 3d the functions are multivariable)
 * Using these gradients, it computes a vector which the ball follows (moving down the slope).
 * A check is preformed, evaluating if either of the gradients are within a certain threshold, currently -0.05:0.05)
